@@ -16,8 +16,7 @@
 INSERT INTO Reservations 
 (CustomerID, Date, PartySize)
 VALUES
-((select CustomerID from Customers where Email = 'smac@kinetecoinc.com'),
-'2018-08-12 18:00:00', 5);
+(101,'2018-08-12 18:00:00', 5);
 
 -- select * from Reservations WHERE customerid = (select CustomerID from Customers where Email = 'smac@kinetecoinc.com');
 
