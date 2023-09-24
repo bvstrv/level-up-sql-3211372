@@ -21,3 +21,5 @@ VALUES
 -- select * from Reservations WHERE customerid = (select CustomerID from Customers where Email = 'smac@kinetecoinc.com');
 
 -- select * from customers where email = 'smac@kinetecoinc.com';
+
+select * from reservations where CustomerID = 101;
