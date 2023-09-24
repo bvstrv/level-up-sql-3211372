@@ -14,3 +14,4 @@ INSERT INTO Orders
 (CustomerID, OrderDate) VALUES
 (70, '2022-09-20 14:00:00');
 
+select * from Orders where Customer
